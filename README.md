@@ -20,3 +20,14 @@ python convert_vtt_to_srt.py
 ```
 This will convert all .vtt files in the current directory and its subdirectories to .srt files.
 
+## You can create a batch file to run the Python script quickly.
+To create a batch file to run the Python script, follow these steps:
+
+1. Open a text editor (such as Notepad) and type the following commands:
+```commandline
+@echo off
+python convert_vtt_to_srt.py
+```
+2. Save the file with the `.bat` extension (e.g., `convert.bat`).
+
+3. To run the script, double-click the batch file. This will open a command prompt window, execute the Python script.
